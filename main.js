@@ -1,7 +1,7 @@
 (function test(){
-    axios.get("localhost:8000/")
+    axios.get("http://localhost:8000/")
     .then((response) => {
-        console.log(reponse.data);
+        console.log(response.data);
     })
     .catch((error) => {
         console.log(error);
